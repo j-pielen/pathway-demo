@@ -56,6 +56,10 @@ curl -X POST http://localhost:11434/api/generate -d '{
  }'
 ```
 
+## Install packages
+First install packages with pip install -r requirements.txt
+On ubuntu as well:  sudo apt install -y libgl1-mesa-glx
+
 ## Running the app
 First, make sure your local LLM is up and running.
 
